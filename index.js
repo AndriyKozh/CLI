@@ -5,7 +5,6 @@ const {
   addContact,
 } = require("./contacts");
 const argv = require("yargs").argv;
-console.log(addContact());
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
